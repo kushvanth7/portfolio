@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const phoneNumber = '770-465-3121';
+  const phoneNumber = '918-236-6735';
   
   return (
     <footer className="bg-black text-white py-6 border-t border-gray-800">
@@ -15,16 +15,16 @@ const Footer = () => {
           <a href="https://facebook.com" className="text-gray-400 hover:text-white">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="https://linkedin.com" className="text-gray-400 hover:text-white">
+          <a href="https://www.linkedin.com/in/kushvanth/" className="text-gray-400 hover:text-white">
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com" className="text-gray-400 hover:text-white">
+          <a href="https://github.com/kushvanth7" className="text-gray-400 hover:text-white">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com" className="text-gray-400 hover:text-white">
+          <a href="https://twitter.com/kushvanth" className="text-gray-400 hover:text-white">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="https://instagram.com" className="text-gray-400 hover:text-white">
+          <a href="https://instagram.com/kushvaenth" className="text-gray-400 hover:text-white">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
