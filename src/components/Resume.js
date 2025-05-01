@@ -93,30 +93,94 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Add more sections on the right side here, such as Education or Experience if needed */}
-          <div>
-            <h3 className="text-xl uppercase font-semibold mb-6 text-gray-300 flex items-center">
-              <FaGraduationCap className="mr-2" /> EDUCATION
-            </h3>
-            <div className="space-y-6 text-gray-400">
+            <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">EDUCATION</h3>
+            
+            <div className="space-y-6">
               <div>
-                <h4 className="text-lg">Bachelor of Technology in Computer Science</h4>
-                <p>XYZ University, 2021 - 2025</p>
+                <h4 className="text-lg font-medium">Lovely Professional University, Punjab</h4>
+                <p className="text-gray-400">B.Tech in Computer Science and Engineering</p>
+                <p className="text-gray-400">2022 - 2026</p>
+              </div>
+              
+              <div>
+                <h4 className="text-lg font-medium">Sri Chaitanya Junior College</h4>
+                <p className="text-gray-400">12th with Science</p>
+                <p className="text-gray-400">2020 - 2022</p>
+              </div>
+              
+              <div>
+                <h4 className="text-lg font-medium">Sri Sai Ganesh Vidyalayam</h4>
+                <p className="text-gray-400">10th with Science</p>
+                <p className="text-gray-400">2019 - 2020</p>
               </div>
             </div>
-
-            <a
-              href={resumeUrl}
-              download
-              className="inline-block mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded"
-            >
-              Download Resume (PDF)
-            </a>
           </div>
+          
+          <div>
+            <h3 className="text-xl uppercase font-semibold mb-6 text-gray-300">INTERNSHIPS</h3>
+            
+            <div className="space-y-8">
+              <div className="flex">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="w-10 h-10 rounded-full bg-gray-800 text-center flex items-center justify-center relative">
+                    <span className="absolute h-full w-0.5 bg-gray-700 bottom-full"></span>
+                    <span className="absolute h-full w-0.5 bg-gray-700 top-full"></span>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium">CYBERSECURITY INTERN</h4>
+                  <p className="text-gray-400 mb-2">LearNex - IIIT Delhi | June 2024 - July 2024</p>
+                  <ul className="list-disc pl-5 text-gray-400">
+                    <li>Successfully completed a 60-hour internship on Cyber Security at CyFuse IIIT Delhi</li>
+                    <li>Gained hands-on experience in cybersecurity principles and practices</li>
+                    <li>Developed skills in network security, threat analysis, and vulnerability assessment</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="flex">
+                <div className="flex-shrink-0 mr-4">
+                  <div className="w-10 h-10 rounded-full bg-gray-800 text-center flex items-center justify-center relative">
+                    <span className="absolute h-full w-0.5 bg-gray-700 bottom-full"></span>
+                    <span className="absolute h-full w-0.5 bg-gray-700 top-full"></span>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium">C++ PROGRAMMING INTERN</h4>
+                  <p className="text-gray-400 mb-2">Techvanto Academy | June 2024 - July 2024</p>
+                  <ul className="list-disc pl-5 text-gray-400">
+                    <li>Implemented C++ software solutions: Created and improved programs using C++ to enhance software functionality and performance</li>
+                    <li>Conducted testing and debugging: Participated in testing and debugging to ensure high-quality software development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+              <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">SOFT SKILLS</h3>
+            
+            <div className="text-gray-400">
+              <p>Problem-Solving Skills · Team Player · Project Management · Adaptability</p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="text-center mt-20">
+          <a 
+            href={resumeUrl} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-3 border border-white text-white hover:bg-white hover:text-black transition-colors"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download CV
+          </a>
         </div>
       </div>
     </section>
   );
 };
+
+
 
 export default Resume;
