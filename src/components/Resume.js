@@ -14,6 +14,7 @@ const Resume = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+          {/* Left Column */}
           <div>
             <h3 className="text-xl uppercase font-semibold mb-6 text-gray-300 flex items-center">
               <FaCode className="mr-2" /> TECHNICAL SKILLS
@@ -93,6 +94,8 @@ const Resume = () => {
             </div>
           </div>
 
+          {/* Right Column */}
+          <div>
             <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">EDUCATION</h3>
             
             <div className="space-y-6">
@@ -114,10 +117,8 @@ const Resume = () => {
                 <p className="text-gray-400">2019 - 2020</p>
               </div>
             </div>
-          </div>
-          
-          <div>
-            <h3 className="text-xl uppercase font-semibold mb-6 text-gray-300">INTERNSHIPS</h3>
+
+            <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">INTERNSHIPS</h3>
             
             <div className="space-y-8">
               <div className="flex">
@@ -155,8 +156,8 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-              <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">SOFT SKILLS</h3>
-            
+
+            <h3 className="text-xl uppercase font-semibold mb-6 mt-12 text-gray-300">SOFT SKILLS</h3>
             <div className="text-gray-400">
               <p>Problem-Solving Skills · Team Player · Project Management · Adaptability</p>
             </div>
@@ -180,7 +181,5 @@ const Resume = () => {
     </section>
   );
 };
-
-
 
 export default Resume;
