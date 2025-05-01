@@ -59,37 +59,44 @@ const Resume = () => {
               <FaCertificate className="mr-2" /> CERTIFICATIONS
             </h3>
             
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <FaCertificate className="text-gray-400 mt-1 mr-3" />
-                <div>
-                  <h4 className="text-lg">Quick Heal Certified Digital Forensic Investigator</h4>
-                  <p className="text-gray-400">January 2025</p>
-                </div>
+            {/* Certification Cards Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+              <div className="certification-card p-6 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors">
+                <img 
+                  src="/images/quick heal.png" 
+                  alt="Quick Heal Certification" 
+                  className="w-32 h-32 mx-auto mb-4 object-contain"
+                />
+                <h4 className="text-lg text-center">Quick Heal Certified Digital Forensic Investigator</h4>
+                <p className="text-gray-400 text-center text-sm">January 2025</p>
               </div>
               
-              <div className="flex items-start">
-                <FaCertificate className="text-gray-400 mt-1 mr-3" />
-                <div>
-                  <h4 className="text-lg">CompTIA Security+</h4>
-                  <p className="text-gray-400">January 2025</p>
-                </div>
+              <div className="certification-card p-6 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors">
+                <img 
+                  src="/images/security badge.png" 
+                  alt="CompTIA Security+" 
+                  className="w-32 h-32 mx-auto mb-4 object-contain"
+                />
+                <h4 className="text-lg text-center">CompTIA Security+</h4>
+                <p className="text-gray-400 text-center text-sm">January 2025</p>
               </div>
               
-              <div className="flex items-start">
-                <FaCertificate className="text-gray-400 mt-1 mr-3" />
-                <div>
-                  <h4 className="text-lg">CompTIA Network+</h4>
-                  <p className="text-gray-400">July 2024</p>
-                </div>
+              <div className="certification-card p-6 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors">
+                <img 
+                  src="/images/network badge.png" 
+                  alt="CompTIA Network+" 
+                  className="w-32 h-32 mx-auto mb-4 object-contain"
+                />
+                <h4 className="text-lg text-center">CompTIA Network+</h4>
+                <p className="text-gray-400 text-center text-sm">July 2024</p>
               </div>
               
-              <div className="flex items-start">
-                <FaCertificate className="text-gray-400 mt-1 mr-3" />
-                <div>
-                  <h4 className="text-lg">Safeguarding Digital Foot Prints - Quick Heal</h4>
-                  <p className="text-gray-400">August 2023</p>
+              <div className="certification-card p-6 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors">
+                <div className="w-32 h-32 mx-auto mb-4 flex items-center justify-center">
+                  <FaShieldAlt className="text-6xl text-gray-400" />
                 </div>
+                <h4 className="text-lg text-center">Safeguarding Digital Foot Prints</h4>
+                <p className="text-gray-400 text-center text-sm">August 2023</p>
               </div>
             </div>
           </div>
