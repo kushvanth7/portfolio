@@ -13,6 +13,7 @@ const About = () => {
           <div className="order-2 md:order-1">
             <p className="text-gray-300 mb-6 leading-relaxed">
             🔐 Cybersecurity Professional | Digital Forensics Investigator | CompTIA Certified (CySA+ | Security+ | Network+)
+  
              Passionate about defending digital frontiers and uncovering the truth behind cyber incidents, I bring a robust foundation in cybersecurity operations, threat detection, and forensic investigation. With industry-recognized certifications including CompTIA CySA+, Security+, Network+, and a Digital Forensics Investigator Certification, I specialize in identifying, analyzing, and mitigating evolving threats in modern IT environments.
             </p>
             <p className="text-gray-300 mb-6 leading-relaxed">
