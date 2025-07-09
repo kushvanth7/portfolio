@@ -93,7 +93,7 @@ const Resume = () => {
               
               <div className="certification-card p-6 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors">
                <img 
-                  src="/images/cysa.jpg" 
+                  src="/images/CySA+-jpg.jpg" 
                   alt="CompTIA Cybersecurity Analyst" 
                   className="w-32 h-32 mx-auto mb-4 object-contain"
                 />
