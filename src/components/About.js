@@ -12,13 +12,14 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Computer Science Engineering student with a focus on cybersecurity and blockchain. Currently pursuing my degree at Lovely Professional University.
+            🔐 Cybersecurity Professional | Digital Forensics Investigator | CompTIA Certified (CySA+ | Security+ | Network+)
+             Passionate about defending digital frontiers and uncovering the truth behind cyber incidents, I bring a robust foundation in cybersecurity operations, threat detection, and forensic investigation. With industry-recognized certifications including CompTIA CySA+, Security+, Network+, and a Digital Forensics Investigator Certification, I specialize in identifying, analyzing, and mitigating evolving threats in modern IT environments.
             </p>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm passionate about network security, computer forensics, and developing secure applications. My technical background includes experience with C++, Python, and web technologies, complemented by certifications in cybersecurity.
+           I'm continually advancing my skills to stay ahead of threat actors and contribute meaningfully to organizations’ cyber resilience strategies. Whether it’s securing infrastructures or tracing digital footprints, I’m driven by the challenge of protecting what matters most in the cyber world.
             </p>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Through internships and personal projects, I've developed skills in cybersecurity principles, threat analysis, vulnerability assessment, and programming solutions.
+             📬 Let’s connect and collaborate on building safer digital ecosystems.ming solutions.
             </p>
             
             <div className="mt-10 pt-10 border-t border-gray-800">
