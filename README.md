@@ -1,4 +1,4 @@
-# Kushwanth Chapala - Portfolio Website
+# Kushvanth Chapala - Portfolio Website
 
 A personal portfolio website showcasing my skills, projects, and experience.
 
