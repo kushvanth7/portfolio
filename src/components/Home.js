@@ -21,7 +21,7 @@ const Home = () => {
             <span className="text-white font-extrabold tracking-wide">CHAPALA</span>
           </h1>
           <p className="text-lg text-gray-400 mt-4 mb-8 font-light">
-            Cybersecurity Enthusiast
+            Cybersecurity Professional
           </p>
           
           <div className="flex flex-wrap gap-3">
