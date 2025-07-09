@@ -70,6 +70,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Kushwanth Chapala - kushwanth.chapala@example.com
-
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio) 
+Kushvanth Chapala - kushvanth2917@gmail.com
